@@ -1,6 +1,6 @@
---------------
-| 'ifconfig' |
---------------
+------------
+|'ifconfig'|
+------------
  The 'ifconfig' command is used to configure network interfaces in Unix-like operating system.
  It is commonly used to assign an IP address to a network interface, enable or disable an interface, view information about an interface, 
  configure the subnet mask and default gateway, and set up network aliases.
@@ -10,9 +10,18 @@
     This will display the current configuration of the eth0 interface, including its IP address and netmask.
 
     Example of how you might use the ifconfig command:
-    ifconfig eth0 192.168.100.5 netmask 255.255.255.0
+    'ifconfig eth0 192.168.100.5 netmask 255.255.255.0'
     This command assigns the IP address 192.168.100.5 to the eth0 interface, with a netmask of 255.255.255.0.
     
-    Another example:
-    ifconfig eth0 192.168.1.100
+    Second example:
+    'ifconfig eth0 192.168.1.100'
     This is going to assign the IP address 192.168.1.100 to the eth0 interface.
+
+----------------
+|'ip addr show'|
+----------------
+ The 'ip addr show' command is a command-line utility that is used to display the configuration of network interfaces on a Linux system. 
+ It is similar to 'ifconfig', but it is more powerful.
+ 
+    To view the configuration of the eth0 interface, you can use the following command:
+    'ip addr show eth0'
