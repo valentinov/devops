@@ -29,4 +29,22 @@
 --------------
 |'traceroute'|
 --------------
-'traceroute' or 'tracert' on Windows is used to determine the path that network packets take from the source machine to a destination.
+ 'traceroute' or 'tracert' on Windows is used to determine the path that network packets take from the source machine to a destination.
+ It does this by sending a series of packets to the destination with increasing time-to-live (TTL) values, and displaying the IP address
+ of each router that the packets pass through on their way to the destination.
+
+    Let's see an example of how to use the command:
+    'traceroute google.com'
+    This will show the path of packets from your machine to the specified domain name or IP address of the google.com.
+    
+    Options for traceroute command: -I option to use ICMP packets instead of UDP, or use -T option for TCP
+ 
+-----------
+|'netstat'|
+-----------
+ The 'netstat' command is used to display information about network connections, routing tables, and network interface statistics. 
+ It can provide information about the status of various network protocols, including TCP, UDP, and ICMP.
+ 
+     To display a list of active TCP connections and the status of each one, we can use the following command:
+     'netstat -t'
+     'netstat -antp'
