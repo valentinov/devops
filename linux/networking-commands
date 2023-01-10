@@ -20,8 +20,13 @@
 ----------------
 |'ip addr show'|
 ----------------
- The 'ip addr show' command is a command-line utility that is used to display the configuration of network interfaces on a Linux system. 
+ The 'ip addr show' command is used to display the configuration of network interfaces on a Linux system. 
  It is similar to 'ifconfig', but it is more powerful.
  
     To view the configuration of the eth0 interface, you can use the following command:
     'ip addr show eth0'
+
+--------------
+|'traceroute'|
+--------------
+'traceroute' or 'tracert' on Windows is used to determine the path that network packets take from the source machine to a destination.
