@@ -5,6 +5,9 @@
  It is commonly used to assign an IP address to a network interface, enable or disable an interface, view information about an interface, 
  configure the subnet mask and default gateway, and set up network aliases.
 
+    If it is not installed, then on Ubuntu run:
+    'sudo apt install net-tools'
+
     You can use the ifconfig command to view information about an interface, like this:
     'ifconfig eth0'
     This will display the current configuration of the eth0 interface, including its IP address and netmask.
